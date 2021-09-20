@@ -1,6 +1,6 @@
 const basepaths = {
     src: "../src",
-    dest: "../dist",
+    dest: "../docs",
 };
 
 module.exports = {
