@@ -38,20 +38,38 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
                         <h2 class="fw-light">Responsive Tabs</h2>
-                        <p class="lead">My javascript was loaded using the Intersection Observer API :)</p>
+                        <p class="lead pb-2">My javascript was loaded using the Intersection Observer API :)</p>
                         <div class="responsive-tabs js-responsive-tabs">
-                            <ul class="nav nav-tabs">
-                                <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" >Active</a>
-                                </li>
-                                <li class="nav-item js-nav-item">
-                                <a class="nav-link">Link</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" >Link</a>
-                                </li>
                             
+                            <!-- Nav pills -->
+                            <ul class="nav nav-pills pb-5 nav-justified">
+                                <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#menu1">Menu 1</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#menu3">Menu 3</a>
+                                </li>
                             </ul>
+                            
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane container active" id="menu1">
+                                    <h4>Panel 1</h4>
+                                    <p>Lorum Ipsum...</p>
+                                </div>
+                                <div class="tab-pane container fade" id="menu2">
+                                    <h4>Panel 2</h4>
+                                    <p>Lorum Ipsum...</p>
+                                </div>
+                                <div class="tab-pane container fade" id="menu3">
+                                    <h4>Panel 3</h4>
+                                    <p>Lorum Ipsum...</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
